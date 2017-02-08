@@ -1,0 +1,16 @@
+version: '2'
+services:
+  nginx:
+    build:
+      context: ./nginx_docker
+      dockerfile: ./Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - web
+    links:
+      - web
+  web:
+    build: .
+    expose:
+      - "3000"

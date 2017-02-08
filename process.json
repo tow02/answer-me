@@ -1,0 +1,10 @@
+{
+  "apps" : [{
+    "name"        : "web",
+    "script"      : "npm",
+    "args"         : "run prod",
+    "env": {
+      "NODE_ENV": "production",
+    }
+  }]
+}
