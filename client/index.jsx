@@ -1,7 +1,17 @@
 import 'babel-polyfill';
 import 'whatwg-fetch';
-import Hello from './Hello.jsx'
+
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import React from 'react';
 import ReactDOM from 'react-dom';
+import injectTapEventPlugin from 'react-tap-event-plugin'
 
-ReactDOM.render(<Hello />, document.getElementById('mount'));
+import App from './App.jsx'
+
+injectTapEventPlugin()
+
+ReactDOM.render((
+  <MuiThemeProvider>
+    <App />
+  </MuiThemeProvider>), document.getElementById('mount')
+);

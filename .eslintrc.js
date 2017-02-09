@@ -6,6 +6,7 @@ module.exports = {
     "rules": {
       "no-unused-vars": 1,
       "semi": 0,
-      "react/prefer-stateless-function": 0
+      "react/prefer-stateless-function": 0,
+      "comma-dangle": 0
     }
 };
