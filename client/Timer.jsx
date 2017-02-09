@@ -1,9 +1,9 @@
 import RaisedButton from 'material-ui/RaisedButton'
 import React from 'react'
 
-const defaultSeconds = 10
+const defaultSeconds = 60
 
-export default class Hello extends React.Component {
+export default class Timer extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
