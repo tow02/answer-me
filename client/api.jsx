@@ -16,3 +16,8 @@ export function getImageObject() {
   const url = '/api/image'
   return get(url)
 }
+
+export function getImages() {
+  const url = '/api/images'
+  return get(url)
+}

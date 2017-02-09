@@ -1,10 +1,11 @@
+import * as _ from 'lodash'
 import { Grid, Row } from 'react-flexbox-grid'
 import CircularProgress from 'material-ui/CircularProgress'
 import RaisedButton from 'material-ui/RaisedButton'
 import React from 'react'
 
 import * as api from './api.jsx'
-import PictureInfo from './PictureInfo.jsx'
+import ImageInfo from './ImageInfo.jsx'
 
 const defaultSeconds = 60;
 
@@ -13,7 +14,8 @@ export default class App extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
-      data: null,
+      images: null,
+      image: null,
       count: defaultSeconds
     }
   }
@@ -28,7 +30,9 @@ export default class App extends React.Component {
 
   onStartClick() {
     clearInterval(this.timer)
-    this.reFetchData()
+    const { images } = this.state
+    const image = this.randomImages(images)
+    this.setState({ image, count: defaultSeconds })
     this.timer = setInterval(this.tick.bind(this), 1000)
   }
 
@@ -43,22 +47,22 @@ export default class App extends React.Component {
     }
   }
 
+  randomImages(images) {
+    const n = images.length
+    const randomNumber = _.random(0, n-1)
+    const image = images[randomNumber]
+    return image
+  }
+
   fetchData() {
-    return api.getImageObject().then((json) => {
+    return api.getImages().then((json) => {
+      const image = this.randomImages(json.images)
       this.setState({
-        data: json,
+        images: json.images,
+        image: image,
         count: defaultSeconds
       })
       this.startTimer()
-    })
-  }
-
-  reFetchData() {
-    return api.getImageObject().then((json) => {
-      this.setState({
-        data: json,
-        count: defaultSeconds
-      })
     })
   }
 
@@ -67,12 +71,12 @@ export default class App extends React.Component {
   }
 
   render() {
-    const { data } = this.state
+    const { image } = this.state
     const styles = {
       div: {
         position: 'relative',
         width: '25%',
-        'padding-bottom': '25%',
+        paddingBottom: '25%',
         float: 'left',
         height: 0
       },
@@ -82,13 +86,13 @@ export default class App extends React.Component {
         position: 'absolute'
       }
     }
-    if (data) {
+    if (image) {
       return (
         <Grid>
           <Row center={'xs'}>
             <div style={styles.div}>
               <img
-                src={data.filename}
+                src={image.filename}
                 role={'presentation'}
                 style={styles.img}
               />
@@ -96,7 +100,7 @@ export default class App extends React.Component {
           </Row>
           <br />
           <Row center={'xs'}>
-            <PictureInfo data={data} />
+            <ImageInfo image={image} />
           </Row>
           <Row center={'xs'}>
             <h1>{this.state.count} seconds remaining</h1>

@@ -44,6 +44,10 @@ function makeApp() {
     })
   })
 
+  api.get('/images', (req, res) => {
+    res.redirect('/static/images.json')
+  })
+
   app.use('/api', api)
 
   app.use('/time', (req, res) => {

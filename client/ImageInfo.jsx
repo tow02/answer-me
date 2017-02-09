@@ -1,7 +1,7 @@
 import RaisedButton from 'material-ui/RaisedButton'
 import React from 'react'
 
-export default class PictureInfo extends React.Component {
+export default class ImageInfo extends React.Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -16,13 +16,13 @@ export default class PictureInfo extends React.Component {
   }
 
   render() {
-    const { data } = this.props
+    const { image } = this.props
     const info = (
       <div>
-        <p>Title: {data.title}</p>
-        <p>Period: {data.period}</p>
-        <p>Medium: {data.medium}</p>
-        <p>Artist: {data.artist}</p>
+        <p>Title: {image.title}</p>
+        <p>Period: {image.period}</p>
+        <p>Medium: {image.medium}</p>
+        <p>Artist: {image.artist}</p>
       </div>
     )
     return (
@@ -35,6 +35,6 @@ export default class PictureInfo extends React.Component {
   }
 }
 
-PictureInfo.PropTypes = {
-  data: React.PropTypes.object
+ImageInfo.propTypes = {
+  image: React.PropTypes.object
 }
