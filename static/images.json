@@ -69,6 +69,125 @@
       "period": "Neolithic Architecture (Prehistoric)",
       "medium": "Circle of stones surrounded by a ditch, Post and Lintel Construction, Stones from southern Wales",
       "artist": ""
+    },
+    {
+      "filename": "/static/images/11-votive-statues-of-worshippers.png",
+      "title": "Votive Statues of Worshippers",
+      "period": "Sumerians Art (Ancient Near East)",
+      "medium": "gypsum, shell, black limestone, various heights (tallest 30 inches high)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/12-warka-vase.png",
+      "title": "Warka Vase (Uruk, (Modern Warka), Iraq)",
+      "period": "Sumerians Art (Ancient Near East)",
+      "medium": "Relief Sculpture (Vase), Alabaster (mineral), 3 feet high, Reliefs depict Inanna (Sumerian Goddess of love, beauty, and war – also known as Ishtar in other parts of Mesopotamia)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/13-anu-ziggurat.png",
+      "title": "Anu Ziggurat (Ancient Uruk (modern Warka, Iraq))",
+      "period": "Sumerians Art (Ancient Near East)",
+      "medium": "Architecture (Temple), Ziggurats showed the wealth and power of the Sumerians",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/14-bull-lyre-overall.png",
+      "title": "Bull Lyre",
+      "period": "Sumerians Art (Ancient Near East)",
+      "medium": "Musical Instrument, Wood, Shell Inlay, Lapis Lazuli, Gold Leaf, 2 meters high, (Bull: symbol of strength and power)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/15-bull-lyre-head.png",
+      "title": "Bull Lyre",
+      "period": "Sumerians Art (Ancient Near East)",
+      "medium": "Musical Instrument, Found in Tomb, Wood, Shell Inlay, Lapis Lazuli, Gold Leaf, 2 meters high, (Bull: symbol of strength and power)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/16-head-of-an-akkadian-ruler.png",
+      "title": "Head of an Akkadian Ruler",
+      "period": "Akkadian Art (Ancient Near East)",
+      "medium": "Copper, 14 in. high, Portrait of an Unknown Ruler, Dignity and Authority, Earliest hollow cast metal sculpture, Stylized beard, hair, and clothing",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/17-votive-statue-of-gudea.png",
+      "title": "Votive Statue of Gudea",
+      "period": "Neo-Sumerian Art (Ancient Near East)",
+      "medium": "Sculpture (Carved Stone), 73.7 cm Tall, Gudea was the leader of Lagash (modern Telloh, Iraq)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/18-stele-of-Hammurabi.png",
+      "title": "Stele of Hammurabi",
+      "period": "Babylonian Art (Ancient Near East)",
+      "medium": "Sculpture (carved stone/relief) 2.13 Meters Tall, Hammurabi: King of Ancient Babylon, Stele: Vertical Upright Monument, Contains early set of written laws, Cuneiform writing, Conversation between Hammurabi and Shamash, the sun God",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/19-lamassu.png",
+      "title": "Lamassu (Assyrian)",
+      "period": "Assyrian Art (Ancient Near East)",
+      "medium": "Carved Limestone, 13’10 high, Human-headed winged lion and bull, Served to ward off enemies and to guard Kings, Partly “in the round” and part relief, Front view at rest / side view in movement",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/20-reconstruction-drawing-of-citadel-of-Sargon-II.png",
+      "title": "Reconstruction Drawing of citadel of Sargon II (Assyrian)",
+      "period": "Assyrian Art (Ancient Near East)",
+      "medium": "",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/21-assurnasirpal-II-killing-lions.png",
+      "title": "Assurnasirpal II Killing Lions (Assyrian)",
+      "period": "Assyrian Art (Ancient Near East)",
+      "medium": "Relief (carved Stone), 99.1 cm Tall, Lion hunting scene (Theme of Man and Nature), Assurnasirpal II was the leader of Assyria, Assyrian ruler built huge palaces: these palaces were decorated with relief carvings",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/22-lion-ishtar-gate.png",
+      "title": "Ishtar Gate (Lion) (Babylon)",
+      "period": "Neo-Babylonian Art (Ancient Near East)",
+      "medium": "Architecture (Glazed Brick)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/23-ishtar-gate.png",
+      "title": "Ishtar Gate (Babylon)",
+      "period": "Neo-Babylonian Art (Ancient Near East)",
+      "medium": "Architecture (Glazed Brick), Entrance to the Ancient city of Babylon, Lions: Symbols of Goddess Ishtar, Crenellated Towers, Glazed Bricks used to make the gate are long lasting and strong",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/24-ishtar-gate-reconstruction-drawing.png",
+      "title": "Ishtar Gate reconstruction drawing (Babylon)",
+      "period": "Neo-Babylonian Art (Ancient Near East)",
+      "medium": "Architecture (Glazed Brick), Entrance to the Ancient city of Babylon, Lions: Symbols of Goddess Ishtar, Crenellated Towers, Glazed Bricks used to make the gate are long lasting and strong",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/25-persepolis.png",
+      "title": "Persepolis: Palace of Darius I and Xerxes I (Persepolis, Iran)",
+      "period": "Persian Art (Ancient Near East)",
+      "medium": "Buildings separated by streets and open spaces, Columned hall was dominant structure, Standing on a rock cut platform, Stone used throughout the palace, Forms of figures derived from Egyptian style (Persians traded with the Egyptians)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/26-persepolis.png",
+      "title": "Persepolis: Palace of Darius I and Xerxes I (Persepolis, Iran)",
+      "period": "Persian Art (Ancient Near East)",
+      "medium": "Buildings separated by streets and open spaces, Columned hall was dominant structure, Standing on a rock cut platform, Stone used throughout the palace, Forms of figures derived from Egyptian style (Persians traded with the Egyptians)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/27-plan-of-persepolist.png",
+      "title": "Persepolis: Palace of Darius I and Xerxes I (Persepolis, Iran)",
+      "period": "Persian Art (Ancient Near East)",
+      "medium": "Buildings separated by streets and open spaces, Columned hall was dominant structure, Standing on a rock cut platform, Stone used throughout the palace, Forms of figures derived from Egyptian style (Persians traded with the Egyptians)",
+      "artist": ""
     }
   ]
 }
