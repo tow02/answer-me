@@ -36,13 +36,6 @@
       "artist": ""
     },
     {
-      "filename": "/static/images/05-lamp-with-ibex-design.png",
-      "title": "Lamp with Ibex Design",
-      "period": "Paleolithic (Prehistoric)",
-      "Medium": "Animal desig engrave on stone",
-      "artist": ""
-    },
-    {
       "filename": "/static/images/06-woman-from-willendorf.png",
       "title": "Woman from Willendorf (Willendorf, Austria)",
       "period": "Paleolithic (Prehistoric)",
@@ -76,6 +69,6 @@
       "period": "Neolithic Architecture (Prehistoric)",
       "Medium": "Circle of stones surrounded by a ditch, Post and Lintel Construction, Stones from southern Wales",
       "artist": ""
-    },
+    }
   ]
 }

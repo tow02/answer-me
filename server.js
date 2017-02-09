@@ -1,4 +1,6 @@
+const _ = require('lodash')
 const express = require('express');
+const fs = require('fs')
 const webpack = require('webpack');
 const morgan = require('morgan');
 const path = require('path')
@@ -29,7 +31,17 @@ function makeApp() {
   if (env !== 'test') app.use(morgan('combined'))
 
   api.get('/image', (req, res) => {
-    res.sendFile(path.join(__dirname, '/static/images/01-hall-of-bulls.png'))
+    const file = './static/images.json'
+    const UTF8 = 'utf8'
+    fs.readFile(file, UTF8, (err, data) => {
+      if (err) throw err;
+      const obj = JSON.parse(data)
+      const images = obj.images
+      const n = images.length
+      const randomNumber = _.random(0, n-1)
+      const image = images[randomNumber]
+      res.json(image)
+    })
   })
 
   app.use('/api', api)
