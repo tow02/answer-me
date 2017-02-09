@@ -1,12 +1,15 @@
 const express = require('express');
 const webpack = require('webpack');
 const morgan = require('morgan');
+const path = require('path')
+
 const config = require('./webpack.config.js');
 const webpackDevMiddleware = require('webpack-dev-middleware');
 const webpackHotMiddleware = require('webpack-hot-middleware');
 
 function makeApp() {
   const app = express()
+  const api = express()
 
   const env = process.env.NODE_ENV ? process.env.NODE_ENV : 'development'
 
@@ -21,7 +24,15 @@ function makeApp() {
     app.use('/assets/', express.static('assets'));
   }
 
+  app.use('/static', express.static('static'));
+
   if (env !== 'test') app.use(morgan('combined'))
+
+  api.get('/image', (req, res) => {
+    res.sendFile(path.join(__dirname, '/static/images/01-hall-of-bulls.png'))
+  })
+
+  app.use('/api', api)
 
   app.use('/time', (req, res) => {
     res.json({
@@ -29,10 +40,16 @@ function makeApp() {
     });
   });
 
-  app.use(express.static('static'));
+  app.use('/', (req, res) => {
+    res.sendFile(path.join(__dirname, '/static/index.html'))
+  });
 
-  app.use('*', (req, res) => {
-    res.sendFile(__dirname + '/static/index.html')
+  app.use((err, req, res, next) => {
+    console.log(JSON.stringify(err, null, 2))
+    if (err.stack) {
+      console.log(err.stack)
+    }
+    res.sendStatus(500)
   });
 
   return app
