@@ -19,10 +19,10 @@ export default class ImageInfo extends React.Component {
     const { image } = this.props
     const info = (
       <div>
-        <p>Title: {image.title}</p>
-        <p>Period: {image.period}</p>
-        <p>Medium: {image.medium}</p>
-        <p>Artist: {image.artist}</p>
+        <p><strong>Title</strong>: {image.title}</p>
+        <p><strong>Period</strong>: {image.period}</p>
+        <p><strong>Medium</strong>: {image.medium}</p>
+        <p><strong>Artist</strong>: {image.artist}</p>
       </div>
     )
     return (
