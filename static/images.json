@@ -4,70 +4,70 @@
       "filename": "/static/images/01-hall-of-bulls.png",
       "title": "Halls of Bulls (Lascaux Cave)",
       "period": "Paleolithic (Prehistoric)",
-      "Medium": "Wall Painting",
+      "medium": "Wall Painting",
       "artist": ""
     },
     {
       "filename": "/static/images/02-bird-headed-man-and-bison.png",
       "title": "Bird-Headed Man and Bison (Lascaux Cave)",
       "period": "Paleolithic (Prehistoric)",
-      "Medium": "Charcoal Drawing",
+      "medium": "Charcoal Drawing",
       "artist": ""
     },
     {
       "filename": "/static/images/03-bison.png",
       "title": "Bison (Altamira Cave)",
       "period": "Paleolithic (Prehistoric)",
-      "Medium": "Relief (bison stands out from the background)",
+      "medium": "Relief (bison stands out from the background)",
       "artist": ""
     },
     {
       "filename": "/static/images/04-four-horses.png",
       "title": "Four Horses (Chauvet Cave)",
       "period": "Paleolithic (Prehistoric)",
-      "Medium": "Charcoal Wall Painting",
+      "medium": "Charcoal Wall Painting",
       "artist": ""
     },
     {
       "filename": "/static/images/05-lamp-with-ibex-design.png",
       "title": "Lamp with Ibex Design",
       "period": "Paleolithic (Prehistoric)",
-      "Medium": "Animal desig engrave on stone",
+      "medium": "Animal desig engrave on stone",
       "artist": ""
     },
     {
       "filename": "/static/images/06-woman-from-willendorf.png",
       "title": "Woman from Willendorf (Willendorf, Austria)",
       "period": "Paleolithic (Prehistoric)",
-      "Medium": "Sculpture",
+      "medium": "Sculpture",
       "artist": ""
     },
     {
       "filename": "/static/images/07-man-and-woman.png",
       "title": "Man and Woman (Romania)",
       "period": "Neolithic (Prehistoric)",
-      "Medium": "Ceramic Sculpture (Made from clay with bone and ashes added)",
+      "medium": "Ceramic Sculpture (Made from clay with bone and ashes added)",
       "artist": ""
     },
     {
       "filename": "/static/images/08-horse-and-sun-chariot.png",
       "title": "Horse and Sun Chariot (Denmark)",
       "period": "Bronze Age (Prehistoric)",
-      "Medium": "Sculpture (Sun disk engraved gold with curved patterns)",
+      "medium": "Sculpture (Sun disk engraved gold with curved patterns)",
       "artist": ""
     },
     {
       "filename": "/static/images/09-mammoth-bone-house.png",
       "title": "Mammoth Bone House (Ukraine)",
       "period": "Paleolithic Architecture (Prehistoric)",
-      "Medium": "Houses (using bones of the Wooly Mammoth, bones were covered with animal hides and natural materials to keep the inside warm)",
+      "medium": "Houses (using bones of the Wooly Mammoth, bones were covered with animal hides and natural materials to keep the inside warm)",
       "artist": ""
     },
     {
       "filename": "/static/images/10-stonehenge.png",
       "title": "Stonehenge (Wiltshire, England)",
       "period": "Neolithic Architecture (Prehistoric)",
-      "Medium": "Circle of stones surrounded by a ditch, Post and Lintel Construction, Stones from southern Wales",
+      "medium": "Circle of stones surrounded by a ditch, Post and Lintel Construction, Stones from southern Wales",
       "artist": ""
     }
   ]
