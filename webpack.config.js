@@ -28,6 +28,8 @@ module.exports = {
         test: /\.jsx$/,
         loaders: ['babel-loader'],
       },
+      { test: /\.css$/, loader: 'style-loader!css-loader?module', include: /flexboxgrid/ },
+      { test: /\.css$/, loader: 'style-loader!css-loader', exclude: /flexboxgrid/ },
     ],
   },
   resolveLoader: {

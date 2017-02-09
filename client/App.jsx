@@ -1,3 +1,4 @@
+import { Grid, Row } from 'react-flexbox-grid'
 import React from 'react'
 
 import Timer from './Timer.jsx'
@@ -6,7 +7,11 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <Timer />
+      <Grid>
+        <Row center={'xs'}>
+          <Timer />
+        </Row>
+      </Grid>
     )
   }
 
