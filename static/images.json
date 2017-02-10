@@ -272,6 +272,111 @@
       "period": "Ancient Egyptian Art",
       "medium": "Painted Limestone Relief, Ti was a court official, Surveying Hippo hunts was a duty of court officials, Hippos were thought to be destructive since they wandered into fields, damaging crops, Symbolizes victory of good over evil",
       "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/01-Anavysos-Kouros.png",
+      "title": "Anavysos Kouros",
+      "period": "530 BCE (Archaic, Ancient Greek)",
+      "medium": "Sculpture (Marble)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/02-Peplos-Kore.png",
+      "title": "Peplos Kore",
+      "period": "530 BCE (Archaic, Ancient Greek)",
+      "medium": "Sculpture (Marble)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/03-Polykleitos.png",
+      "title": "Polykleitos, Doryphorus (Spear Bearer)",
+      "period": "450 - 440 BCE (Classical, Ancient Greek)",
+      "medium": "Marble (Roman Copy)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/04-Dying-Warrior.png",
+      "title": "Dying Warrior",
+      "period": "480 BCE (Classical, Ancient Greek)",
+      "medium": "Marble ",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/05-Discus-Thrower.png",
+      "title": "Discus Thrower",
+      "period": "450 BCE (Classical, Ancient Greek)",
+      "medium": "Marble / Roman Copy",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/06-Lysippos.png",
+      "title": "Lysippos, The Scraper",
+      "period": "330 BCE (Classical, Ancient Greek)",
+      "medium": "Roman copy from original bronze",
+      "artist": "Lysippos"
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/07-Venus-de-Milo.png",
+      "title": "Venus de Milo",
+      "period": "150 BCE (Hellenistic, Ancient Greek)",
+      "medium": "Sculpture (Marble)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/08-Nike-of-Samothrace.png",
+      "title": "Nike of Samothrace",
+      "period": "190 BCE (Hellenistic, Ancient Greek)",
+      "medium": "Marble / Roman Copy",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/09-Francois-Vase.png",
+      "title": "Francois Vase",
+      "period": "570 BCE (Archaic, Ancient Greek)",
+      "medium": "Sculpture (Painted Ceramic)",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/10-Euthymides.png",
+      "title": "Euthymides, Three Revelers",
+      "period": "510 BCE (Archaic, Ancient Greek)",
+      "medium": "Amphora Vase Form (Wine Storage Jar)",
+      "artist": "Painted by Euthymides"
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/11-Greek-Columns.png",
+      "title": "3 Types of Greek Columns:Doric, Ionic, and Corinthian",
+      "period": "Ancient Greek",
+      "medium": "Greek Columns",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/12-Sanctuary-of-Apollo.png",
+      "title": "Sanctuary of Apollo",
+      "period": "6th – 3rd century BCE, Ancient Greek",
+      "medium": "Architecture",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/13-Parthenon-Acropolis.png",
+      "title": "Parthenon, Acropolis",
+      "period": "447 – 438 BCE (Classical Period, Ancient Greek)",
+      "medium": "Acropolis - complex of buildings",
+      "artist": "Designed by Kallikrates and Iktinos (architects)"
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/14-East-Pediment-of-the-Parthenon.png",
+      "title": "East Pediment of the Parthenon",
+      "period": "447 – 438 BCE (Classical Period, Ancient Greek)",
+      "medium": "",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/Ancient-Greek/15-Centaur-and-Lapith-Metope.png",
+      "title": "Centaur and Lapith Metope",
+      "period": "447 – 438 BCE (Classical Period, Ancient Greek)",
+      "medium": "Marble",
+      "artist": ""
     }
   ]
 }
