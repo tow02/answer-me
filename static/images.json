@@ -188,6 +188,90 @@
       "period": "Persian Art (Ancient Near East)",
       "medium": "Buildings separated by streets and open spaces, Columned hall was dominant structure, Standing on a rock cut platform, Stone used throughout the palace, Forms of figures derived from Egyptian style (Persians traded with the Egyptians)",
       "artist": ""
+    },
+    {
+      "filename": "/static/images/28-stepped-pyramid-of-djoser.png",
+      "title": "Stepped Pyramid of Djoser",
+      "period": "Ancient Egyptian Art",
+      "medium": "Architecture, Limestone, Tomb for King Djoser, Burial Chamber below ground",
+      "artist": "Imhotep (Prime Minister)"
+    },
+    {
+      "filename": "/static/images/29-great-pyramids-of-giza.png",
+      "title": "Great Pyramids of Giza",
+      "period": "Ancient Egyptian Art",
+      "medium": "Architecture (tombs), for King Mankaura, King Khafre and King Khufu (tallest: 137 meters), contained false passageways",
+      "artist": "Imhotep (Prime Minister)"
+    },
+    {
+      "filename": "/static/images/30-the-great-sphinx.png",
+      "title": "The Great Sphinx",
+      "period": "Ancient Egyptian Art",
+      "medium": "Portraits of King Khafra",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/31-khafre.png",
+      "title": "Khafre",
+      "period": "Ancient Egyptian Art",
+      "medium": "Carved Anorthosite Gneiss (rare stone, glows a deep blue in sunlight, celestial color of Horus (falcon God who protects the King)), wears royal clothing, head dress in the shape of a cobra (represents the sun god), fake beard, Conveys dignity, calmness, and permanence",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/32-funerary-mask-of-tutankhamun.png",
+      "title": "Funerary Mask of Tutankhamun",
+      "period": "Ancient Egyptian Art",
+      "medium": "Gold inlaid with glass and semiprecious stones, height 54 cm, Tomb filled with treasures",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/33-inner-coffin-of-tutankhamen-sarcophagus.png",
+      "title": "Inner Coffin of Tutankhamen’s Sarcophagus",
+      "period": "Ancient Egyptian Art",
+      "medium": "Gold inlaid with glass and semiprecious stones, height 54 cm, Tomb filled with treasures",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/34-nefertiti.png",
+      "title": "Nefertiti",
+      "period": "Ancient Egyptian Art",
+      "medium": "Painted Limestone, Height 51 cm, Egyptian beauty ideal, Dramatic use of color",
+      "artist": "Tutmose"
+    },
+    {
+      "filename": "/static/images/35-rosetta-stone.png",
+      "title": "Rosetta Stone",
+      "period": "Ancient Egyptian Art",
+      "medium": "Ancient Egyptian stele originally displayed in a temple, key to understanding Egyptian hieroglyphic, Decree issued by King Ptolemy V; top part: ancient hieroglyphics, middle part: Egyptian demotic writing, lower part: ancient Greek writing",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/36-akhenaten-and-his-family.png",
+      "title": "Akhenaten and his Family",
+      "period": "Ancient Egyptian Art",
+      "medium": "Sunken relief, Royal Family Portrait (King Akhenaten on left, Queen Nefertiti on the right, 3 of their daughters), Hieroglyphics in background",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/37-queen-nefertari-making-an-offering-to-isis.png",
+      "title": "Queen Nefertari Making an Offering to Isis",
+      "period": "Ancient Egyptian Art",
+      "medium": "Wall Painting in the Tomb of Nefertari, preparing for her death, Hieroglyphics in background",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/38-palette-of-narmer.png",
+      "title": "Palette of Narmer",
+      "period": "Early Dynastic (Ancient Egyptian Art)",
+      "medium": "Green schist (stone relief), Stone Palette possibly used for ceremonies",
+      "artist": ""
+    },
+    {
+      "filename": "/static/images/39-ti-watching-a-hippopotamus-hunt.png",
+      "title": "Ti Watching a Hippopotamus Hunt",
+      "period": "Ancient Egyptian Art",
+      "medium": "Painted Limestone Relief, Ti was a court official, Surveying Hippo hunts was a duty of court officials, Hippos were thought to be destructive since they wandered into fields, damaging crops, Symbolizes victory of good over evil",
+      "artist": ""
     }
   ]
 }
