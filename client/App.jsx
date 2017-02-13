@@ -76,14 +76,12 @@ export default class App extends React.Component {
       div: {
         position: 'relative',
         width: '25%',
-        paddingBottom: '25%',
         float: 'left',
-        height: 0
+        height: 500,
       },
       img: {
-        width: '100%',
         height: '100%',
-        position: 'absolute'
+        'max-height': '500px'
       }
     }
     if (image) {
