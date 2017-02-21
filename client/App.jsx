@@ -71,6 +71,7 @@ export default class App extends React.Component {
   }
 
   render() {
+    
     const { image } = this.state
     const styles = {
       div: {
@@ -80,7 +81,6 @@ export default class App extends React.Component {
       },
       img: {
         height: '100%',
-        'max-height': '500px'
       }
     }
     if (image) {
@@ -92,8 +92,6 @@ export default class App extends React.Component {
                 src={image.filename}
                 /*role={'presentation'}*/
                 style={styles.img}
-                justifyContent='center'
-                alignItems='center'
               />
             </div>
           </Row>
