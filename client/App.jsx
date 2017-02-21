@@ -75,7 +75,6 @@ export default class App extends React.Component {
     const styles = {
       div: {
         position: 'relative',
-        width: '25%',
         float: 'left',
         height: 500,
       },
@@ -91,8 +90,10 @@ export default class App extends React.Component {
             <div style={styles.div}>
               <img
                 src={image.filename}
-                role={'presentation'}
+                /*role={'presentation'}*/
                 style={styles.img}
+                justifyContent='center'
+                alignItems='center'
               />
             </div>
           </Row>
