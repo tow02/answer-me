@@ -27,10 +27,10 @@ export default class ImageInfo extends React.Component {
     )
     return (
       <div>
-        <RaisedButton label={'show info'} onClick={this.onClick.bind(this)}/>
+        <RaisedButton label={'show info'} 
+        onClick={this.onClick.bind(this)}/>
         {this.state.showInfo && info}
       </div>
-
     )
   }
 }

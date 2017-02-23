@@ -36,6 +36,7 @@
     "react-addons-test-utils": "^15.0.2",
     "react-dom": "^15.0.2",
     "react-flexbox-grid": "^0.10.2",
+    "react-key-handler": "^0.3.0",
     "react-tap-event-plugin": "^2.0.1",
     "style-loader": "^0.13.1",
     "superagent-bluebird-promise": "^3.0.0",
