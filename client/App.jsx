@@ -62,8 +62,10 @@ export default class App extends React.Component {
     const n = images.length
     var randomNumber = _.random(0, n-1)
     var index = images.indexOf(images[randomNumber])
+    console.log("Progress: " + this.state.progress)
     console.log("remaining images: "+n)
     console.log("index: " + randomNumber)
+    console.log("===========")
     images.splice(randomNumber,1)
     const image = images[randomNumber]
     return image
@@ -88,7 +90,7 @@ export default class App extends React.Component {
   }
 
   keyHandler(e){
-    console.log(e.key)
+    // console.log(e.key)
     switch (e.key) {
       case "ArrowLeft":
         // Do something for "left arrow" key press.
