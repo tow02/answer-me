@@ -21,7 +21,8 @@ export default class App extends React.Component {
       count: defaultSeconds,
       progress: 0,
       totalImages: null,
-      imageStatus: 'loading'
+      imageStatus: 'loading',
+      final: false
     }
   }
 
@@ -54,6 +55,20 @@ export default class App extends React.Component {
     this.nextImage()
   }
 
+  onFinalMidtermClick() {
+    if(this.state.final){
+      // is at final, switch to midterm
+      console.log("Switching to midterm")
+      this.fetchData()
+      this.state.final = false
+    }else{
+      // is at midterm, switch to final
+      console.log("Switching to final")
+      this.fetchData()
+      this.state.final = true
+    }
+  }
+
   startTimer() {
     clearInterval(this.timer)
     this.timer = setInterval(this.tick.bind(this), 1000)
@@ -81,11 +96,16 @@ export default class App extends React.Component {
   }
 
   fetchData() {
-    return api.getImages().then((json) => {
-      const image = this.randomImages(json.images)
+    return api.getImages(this.state.final).then((json) => {
+      if(this.state.final){
+        var jsonImages = json.images
+      }else{
+        var jsonImages = json.images_final
+      }
+      const image = this.randomImages(jsonImages)
       this.setState({
-        images: json.images,
-        totalImages: json.images.length,
+        images: jsonImages,
+        totalImages: jsonImages.length,
         image: image,
         count: defaultSeconds
       })
@@ -111,6 +131,7 @@ export default class App extends React.Component {
         // Do something for "enter" or "return" key press.
         break;
       case " ":
+        // Spacebar is pressed
         this.nextImage()
         break;
       default:
@@ -151,6 +172,11 @@ export default class App extends React.Component {
             {/*<div style={styles.div}>*/}
               <h1>{this.state.progress}/{this.state.totalImages}</h1>
             {/*</div>*/}
+          </Row>
+          <Row center={'xs'}>
+            <div>
+              <RaisedButton label={'Final/Midterm'} primary onClick={this.onFinalMidtermClick.bind(this)} />
+            </div>
           </Row>
           <Row center={'xs'}>
             <div style={styles.div}>

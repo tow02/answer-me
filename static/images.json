@@ -378,5 +378,42 @@
       "medium": "Marble",
       "artist": ""
     }
+  ],
+  "images_final":[
+    {
+      "filename": "/static/images/final/test.jpg",
+      "title": "test",
+      "period": "test",
+      "medium": "test",
+      "artist": "test"
+    },
+    {
+      "filename": "/static/images/final/test-copy.jpg",
+      "title": "test",
+      "period": "test",
+      "medium": "test",
+      "artist": "test"
+    },
+    {
+      "filename": "/static/images/final/test-copy-2.jpg",
+      "title": "test",
+      "period": "test",
+      "medium": "test",
+      "artist": "test"
+    },
+    {
+      "filename": "/static/images/final/test-copy-3.jpg",
+      "title": "test",
+      "period": "test",
+      "medium": "test",
+      "artist": "test"
+    },
+    {
+      "filename": "/static/images/final/test-copy-4.jpg",
+      "title": "test",
+      "period": "test",
+      "medium": "test",
+      "artist": "test"
+    }
   ]
 }
