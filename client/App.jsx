@@ -20,12 +20,21 @@ export default class App extends React.Component {
       image: null,
       count: defaultSeconds,
       progress: 0,
-      totalImages: null
+      totalImages: null,
+      imageStatus: 'loading'
     }
   }
 
   componentWillMount() {
     return this.fetchData()
+  }
+
+  handleImageLoaded() {
+    this.setState({ imageStatus: '' });
+  }
+ 
+  handleImageErrored() {
+    this.setState({ imageStatus: 'failed to load' });
   }
 
   componentWillUnmount() {
@@ -81,7 +90,6 @@ export default class App extends React.Component {
         count: defaultSeconds
       })
       this.startTimer()
-      // this.initImagesArray(json.images)
     })
   }
 
@@ -90,7 +98,6 @@ export default class App extends React.Component {
   }
 
   keyHandler(e){
-    // console.log(e.key)
     switch (e.key) {
       case "ArrowLeft":
         // Do something for "left arrow" key press.
@@ -118,7 +125,8 @@ export default class App extends React.Component {
       div: {
         position: 'relative',
         float: 'left',
-        height: 500,
+        maxWidth: '100%',
+        maxHeight: 500
       },
       img: {
         height: '100%',
@@ -147,10 +155,13 @@ export default class App extends React.Component {
           <Row center={'xs'}>
             <div style={styles.div}>
               <img
+                onLoad={this.handleImageLoaded.bind(this)}
+                onError={this.handleImageErrored.bind(this)}
                 src={image.filename}
                 /*role={'presentation'}*/
                 style={styles.img}
               />
+              {this.state.imageStatus}
             </div>
           </Row>
           <br />
