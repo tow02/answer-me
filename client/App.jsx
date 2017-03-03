@@ -22,7 +22,8 @@ export default class App extends React.Component {
       progress: 0,
       totalImages: null,
       imageStatus: 'loading',
-      final: false
+      final: false,
+      imageSetText: "Midterm"
     }
   }
 
@@ -55,18 +56,24 @@ export default class App extends React.Component {
     this.nextImage()
   }
 
-  onFinalMidtermClick() {
-    if(this.state.final){
-      // is at final, switch to midterm
-      console.log("Switching to midterm")
-      this.fetchData()
-      this.state.final = false
-    }else{
-      // is at midterm, switch to final
-      console.log("Switching to final")
-      this.fetchData()
-      this.state.final = true
-    }
+  onFinalMidtermClick(event) {
+    //your click event code
+      if(this.state.final){
+        // is at final, switch to midterm
+        console.log("Switching to midterm")
+        this.fetchData()
+        this.state.final = false
+        this.state.imageSetText = "Midterm"
+        this.state.progress = 0
+      }else{
+        // is at midterm, switch to final
+        console.log("Switching to final")
+        this.fetchData()
+        this.state.final = true
+        this.state.imageSetText = "Final"
+        this.state.progress = 0
+      }
+    
   }
 
   startTimer() {
@@ -83,23 +90,26 @@ export default class App extends React.Component {
   }
 
   randomImages(images) {
-    const n = images.length
-    var randomNumber = _.random(0, n-1)
-    var index = images.indexOf(images[randomNumber])
+    const n = images.length // get length
+    var randomNumber = _.random(0, n-1) // generate a random number
+    // 
     console.log("Progress: " + this.state.progress)
     console.log("remaining images: "+n)
     console.log("index: " + randomNumber)
     console.log("===========")
-    images.splice(randomNumber,1)
+    //
     const image = images[randomNumber]
+    images.splice(randomNumber,1) // delete the chosen image from images
     return image
   }
 
   fetchData() {
     return api.getImages(this.state.final).then((json) => {
-      if(this.state.final){
+      if(!this.state.final){
+        // not final
         var jsonImages = json.images
       }else{
+        // final
         var jsonImages = json.images_final
       }
       const image = this.randomImages(jsonImages)
@@ -138,9 +148,15 @@ export default class App extends React.Component {
         return; // Quit when this doesn't handle the key event.
     }
   }
+  
+  keyPress(e) {
+    if(e.key == 'Enter'){
+      // prevent enter key from activating MidtermFinal button
+      e.preventDefault()
+    }
+  }
 
   render() {
-    
     const { image } = this.state
     const styles = {
       div: {
@@ -175,7 +191,10 @@ export default class App extends React.Component {
           </Row>
           <Row center={'xs'}>
             <div>
-              <RaisedButton label={'Final/Midterm'} primary onClick={this.onFinalMidtermClick.bind(this)} />
+              <h1>{this.state.imageSetText}</h1>
+              <RaisedButton label={'Final/Midterm'} 
+              primary onClick={this.onFinalMidtermClick.bind(this)} 
+              onKeyPress={this.keyPress} />
             </div>
           </Row>
           <Row center={'xs'}>
