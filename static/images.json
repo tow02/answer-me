@@ -381,39 +381,81 @@
   ],
   "images_final":[
     {
-      "filename": "/static/images/final/test.jpg",
-      "title": "test",
-      "period": "test",
-      "medium": "test",
-      "artist": "test"
+      "filename": "static/images/final/ancient-roman/01-augustus-of-primaporta.png",
+      "title": "Augustus of Primaporta",
+      "period": "1st Century CE (Ancient Roman)",
+      "medium": "Marble Sculpture (2 meters tall)",
+      "artist": ""
     },
     {
-      "filename": "/static/images/final/test-copy.jpg",
-      "title": "test",
-      "period": "test",
-      "medium": "test",
-      "artist": "test"
+      "filename": "static/images/final/ancient-roman/02-constantine-the-great.png",
+      "title": "Constantine the Great",
+      "period": "325-325 CE (Ancient Roman)",
+      "medium": "Marble Sculpture (height of head 2.6 meters)",
+      "artist": ""
     },
     {
-      "filename": "/static/images/final/test-copy-2.jpg",
-      "title": "test",
-      "period": "test",
-      "medium": "test",
-      "artist": "test"
+      "filename": "static/images/final/ancient-roman/03-antinous.png",
+      "title": "Antinous",
+      "period": "130-38 CE (Ancient Roman)",
+      "medium": "Marble Sculpture (2.41 meters tall)",
+      "artist": ""
     },
     {
-      "filename": "/static/images/final/test-copy-3.jpg",
-      "title": "test",
-      "period": "test",
-      "medium": "test",
-      "artist": "test"
+      "filename": "static/images/final/ancient-roman/04-she-wolf.png",
+      "title": "She-Wolf",
+      "period": "500 BCE (Ancient Roman)",
+      "medium": "Sculpture (Bronze, 85 centimeters tall)",
+      "artist": ""
     },
     {
-      "filename": "/static/images/final/test-copy-4.jpg",
-      "title": "test",
-      "period": "test",
-      "medium": "test",
-      "artist": "test"
+      "filename": "static/images/final/ancient-roman/05-colosseum.png",
+      "title": "Colosseum",
+      "period": "70-80 CE (Ancient Roman)",
+      "medium": "Architecture (with Doric, Ionic and Corinthian columns)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/ancient-roman/06-arch-of-constantine.png",
+      "title": "Arch of Constantine",
+      "period": "312-315 CE (Ancient Roman)",
+      "medium": "Architecture",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/ancient-roman/07-pantheon.png",
+      "title": "Pantheon",
+      "period": "118-128 CE (Ancient Roman)",
+      "medium": "Architecture",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/ancient-roman/08-rotunda.png",
+      "title": "Rotunda (Circular Room)",
+      "period": "118-128 CE (Ancient Roman)",
+      "medium": "Architecture (143 feet in diameter, 143 feet from floor to summit)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/ancient-roman/09-cityscape.png",
+      "title": "Cityscape",
+      "period": "1st century CE",
+      "medium": "Painting (Wall Painting, painted Corinthian Column)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/ancient-roman/10-bedroom-house-of-publius-fannius-synistor.png",
+      "title": "Bedroom, House of Publius Fannius Synistor",
+      "period": "1st Century CE (Ancient Roman)",
+      "medium": "Architecture (Interior)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/ancient-roman/11-the-unswept-floor.png",
+      "title": "The Unswept Floor",
+      "period": "2nd Century CE (Ancient Roman)",
+      "medium": "Mosaic (Trompe L'oeil, fool the eye), (based on Greek painting)",
+      "artist": "Heraklitos"
     }
   ]
 }
