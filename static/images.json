@@ -456,6 +456,55 @@
       "period": "2nd Century CE (Ancient Roman)",
       "medium": "Mosaic (Trompe L'oeil, fool the eye), (based on Greek painting)",
       "artist": "Heraklitos"
+    },
+    {
+      "filename": "static/images/final/early-medieval/01-chi-rho-iota.png",
+      "title": "Chi Rho Iota",
+      "period": "800 CE (Early Medieval)",
+      "medium": "Drawing, (Page from Manuscript (Book of Kells))",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/early-medieval/02-matthew-the-evangelist.png",
+      "title": "Page with Matthew the Evangelist",
+      "period": "850 CE (Early Medieval)",
+      "medium": "Drawing (Ink and Colors on Vellum)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/early-medieval/03-crucifixion-with-angels-and-mourning-figures.png",
+      "title": "Crucifixion with Angels and Mourning Figures",
+      "period": "870 CE (Early Medieval)",
+      "medium": "Gold with relief and precious stones/pearls (outer cover of Lindau Gospels)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/early-medieval/04-hinged-clasp.png",
+      "title": "Hinged Clasp",
+      "period": "650 CE (Early Medieval)",
+      "medium": "Gold plaques with inlays of garnet and milefiori glass (length: 12.7 cm)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/early-medieval/05-burial-ship.png",
+      "title": "Burial Ship (Oseberg Ship)",
+      "period": "815-820 CE (Early Medieval, Norway)",
+      "medium": "Wood",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/early-medieval/06-borgund-stave-church.png",
+      "title": "Borgund Stave Church",
+      "period": "1125-1150 CE (Early Medieval, Norway)",
+      "medium": "Architecture, wooden buildings",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/early-medieval/07-church-of-st-cyriakus.png",
+      "title": "Church of St. Cyriakus",
+      "period": "961 CE (Early Medieval, Germany)",
+      "medium": "Architecture",
+      "artist": ""
     }
   ]
 }
