@@ -505,6 +505,83 @@
       "period": "961 CE (Early Medieval, Germany)",
       "medium": "Architecture",
       "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/01-cathedral-complex-of-pisa.png",
+      "title": "Cathedral Complex of Pisa",
+      "period": "1173 CE (begun), Romanesque (Tuscany, Italy)",
+      "medium": "Architecture",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/02-companile.png",
+      "title": "Companile (Bell Tower, Leaning Tower of Pisa)",
+      "period": "Romanesque (Tuscany, Italy)",
+      "medium": "Architecture",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/03-abbey-church-of-sainte-foy.png",
+      "title": "Abbey Church of Sainte-Foy",
+      "period": "1120 CE, Romanesque (Conques, France)",
+      "medium": "Architecture",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/04-the-nave-of-st-sernin.png",
+      "title": "The Nave of St. Sernin",
+      "period": "1080-1120 CE, Romanesque (Toulouse, France)",
+      "medium": "Architecture",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/05-portal-cathedral-of-saint-lazare.png",
+      "title": "Portal, Cathedral of Saint-Lazare",
+      "period": "1130 CE, Romanesque (Burgundy, France)",
+      "medium": "Relief Sculpture",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/06-creation-and-fall-of-adam-and-eve.png",
+      "title": "Creation and Fall of Adam and Eve",
+      "period": "1099 CE, Romanesque (Modena Cathedral, Italy)",
+      "medium": "Relief Sculpture (height: 92 cm)",
+      "artist": "Wiligelmus"
+    },
+    {
+      "filename": "static/images/final/romanesque/07-the-magi-asleep.png",
+      "title": "The Magi Asleep",
+      "period": "1125 CE, Romanesque (Modena Cathedral, Italy)",
+      "medium": "Capital (from interior of Cathedral of Saint-Lazare)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/08-christ-in-majesty.png",
+      "title": "Christ in Majesty",
+      "period": "1123 CE, Romanesque (Church of San Climent, Barcelona, Spain)",
+      "medium": "Wall Painting",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/09-bishop-odo-blessing-the-feast.png",
+      "title": "Bishop Odo Blessing the Feast (detail from Bayeux Embroidery)",
+      "period": "1066-1082 CE, Romanesque",
+      "medium": "Embroidery (Linen with Wool Thread)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/10-reliquary-statue-of-sainte-foy.png",
+      "title": "Reliquary Statue of Sainte Foy",
+      "period": "980 CE, Romanesque",
+      "medium": "Wood with Gold and Gems (height: 85 cm)",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/romanesque/11-virgin-and-child-from-auvergne.png",
+      "title": "Virgin and Child from Auvergne, France",
+      "period": "Late 12th Century CE, Romanesque",
+      "medium": "Oak Wood (height: 78.7 cm)",
+      "artist": ""
     }
   ]
 }
