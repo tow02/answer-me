@@ -163,27 +163,28 @@ export default class App extends React.Component {
         position: 'relative',
         float: 'left',
         maxWidth: '100%',
-        maxHeight: 500
+        // maxHeight: '500'
       },
       img: {
         height: '100%',
+        width: '50%'
       }
     }
     if (image) {
       return (
         <Grid>
-          <KeyHandler keyEventName={KEYUP} 
+          {/*<KeyHandler keyEventName={KEYUP} 
           keyValue="ArrowLeft"  
-          onKeyHandle={this.keyHandler.bind(this)} />
+          onKeyHandle={this.keyHandler.bind(this)} />*/}
           <KeyHandler keyEventName={KEYUP} 
           keyValue="ArrowRight"  
           onKeyHandle={this.keyHandler.bind(this)} />
-          <KeyHandler keyEventName={KEYUP} 
+          {/*<KeyHandler keyEventName={KEYUP} 
           keyValue="Enter"  
           onKeyHandle={this.keyHandler.bind(this)} />
           <KeyHandler keyEventName={KEYUP} 
           keyValue=" "  
-          onKeyHandle={this.keyHandler.bind(this)} />
+          onKeyHandle={this.keyHandler.bind(this)} />*/}
           <Row center={'xs'}>
             {/*<div style={styles.div}>*/}
               <h1>{this.state.progress}/{this.state.totalImages}</h1>
@@ -218,9 +219,11 @@ export default class App extends React.Component {
           </Row>
           <Row center={'xs'}>
             <div>
-              <RaisedButton label={'Start'} primary onClick={this.onStartClick.bind(this)} />
+              <RaisedButton label={'Start'} 
+              primary onClick={this.onStartClick.bind(this)} />
               &nbsp;
-              <RaisedButton label={'Pause'} primary onClick={this.pauseTimer.bind(this)} />
+              <RaisedButton label={'Pause'} 
+              primary onClick={this.pauseTimer.bind(this)} />
             </div>
           </Row>
         </Grid>

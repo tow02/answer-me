@@ -582,6 +582,181 @@
       "period": "Late 12th Century CE, Romanesque",
       "medium": "Oak Wood (height: 78.7 cm)",
       "artist": ""
+    },
+    {
+      "filename": "static/images/final/early-renaissance/01.png",
+      "title": "David",
+      "period": "1432, Florence, Italy, Early Renaissance",
+      "medium": "sculpture, 5'2 ",
+      "artist": "Donatello"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/02.png",
+      "title": "Dead Christ",
+      "period": "1501, Early Renaissance",
+      "medium": "Tempera on Canvas",
+      "artist": "Andrea Mantegna"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/03.png",
+      "title": "Holy Trinity",
+      "period": "1427-1428, Early Renaissance",
+      "medium": "Painting based on Observation (looking at real humans as a model)",
+      "artist": "Masaccio"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/04.png",
+      "title": "Battle of the Ten Nudes",
+      "period": "1465, Early Renaissance",
+      "medium": "Engraving",
+      "artist": "Antonio Pollaiuolo"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/05.png",
+      "title": "The Temptation of Saint Anthony",
+      "period": "1470-1475, Early Renaissance",
+      "medium": "Engraving",
+      "artist": "Martin Schongauer"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/06.png",
+      "title": "Expulsion of Adam and Eve from Eden",
+      "period": "1425, Early Renaissance",
+      "medium": "Fresco",
+      "artist": "Masaccio"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/07.png",
+      "title": "Annuciation",
+      "period": "1438-1445, Early Renaissance",
+      "medium": "Fresco",
+      "artist": "Fra Angelico"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/08.png",
+      "title": "Man in a Red Turban",
+      "period": "1433, Early Renaissance",
+      "medium": "Oil on Wood",
+      "artist": "Jan Van Eyck"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/09.png",
+      "title": "Giovanni Amlfini and His Bride",
+      "period": "1434, Early Renaissance",
+      "medium": "Oil on Wood",
+      "artist": "Jan Van Eyck"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/10.png",
+      "title": "Merode Altarpiece",
+      "period": "1425-1428, Early Renaissance",
+      "medium": "Oil on Wood",
+      "artist": "Robert Campin"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/11.png",
+      "title": "Birth of Venus",
+      "period": "1482, Early Renaissance",
+      "medium": "Tempera on Canvas",
+      "artist": "Botticelli"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/12.png",
+      "title": "Dome of Florence Cathedral",
+      "period": "1420-1436, Early Renaissance",
+      "medium": "Architecture",
+      "artist": "Filippo Brunelleschi"
+    },
+    {
+      "filename": "static/images/final/early-renaissance/13.png",
+      "title": "Sacrifice of Isaac",
+      "period": "1401-1402, Early Renaissance",
+      "medium": "Gilded Bronze relief",
+      "artist": "Lorenzo Ghiberti"
+    },
+    {
+      "filename": "static/images/final/gothic-art/01.png",
+      "title": "Abbey Church of Saint-Denis",
+      "period": "1130-1144, Gothic",
+      "medium": "Architecture",
+      "artist": "Abbot Suger(Architect)"
+    },
+    {
+      "filename": "static/images/final/gothic-art/02.png",
+      "title": "Rose Window",
+      "period": "Gothic",
+      "medium": "",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/gothic-art/03.png",
+      "title": "Tomb of Marie-Antoinette",
+      "period": "Gothic",
+      "medium": "",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/gothic-art/04.png",
+      "title": "Notre Dame Paris",
+      "period": "1163, Gothic",
+      "medium": "",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/gothic-art/05.png",
+      "title": "Flying Buttresses",
+      "period": "Gothic",
+      "medium": "",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/gothic-art/06.png",
+      "title": "Ribbed Vaulting",
+      "period": "Gothic",
+      "medium": "",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/gothic-art/07.png",
+      "title": "Sainte-Chapelle",
+      "period": "1243-1248, Gothic",
+      "medium": "Stained glass",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/gothic-art/08.png",
+      "title": "Furrier's Shop",
+      "period": "Gothic",
+      "medium": "Stained Glass",
+      "artist": ""
+    },
+    {
+      "filename": "static/images/final/gothic-art/09.png",
+      "title": "Virgin and Child",
+      "period": "1139, Gothic",
+      "medium": "69cm",
+      "artist": "from the Abbey Church of St. Denis"
+    },
+    {
+      "filename": "static/images/final/gothic-art/10.png",
+      "title": "Virgin and Child Enthroned",
+      "period": "1280, Gothic",
+      "medium": "10 feet 8 inches x 6 feet 8 inches, Tempera Paint and Gold on Wood",
+      "artist": "Giotto di Bondone"
+    },
+    {
+      "filename": "static/images/final/gothic-art/11.png",
+      "title": "Arena Chapel, Padua, Italy",
+      "period": "Gothic",
+      "medium": "Paintings",
+      "artist": "Giotto"
+    },
+    {
+      "filename": "static/images/final/gothic-art/12.png",
+      "title": "Lamentation",
+      "period": "1305-1306, Gothic",
+      "medium": "Fresco Painting, Padua, Italy",
+      "artist": "Giotti di Bondone"
     }
   ]
 }

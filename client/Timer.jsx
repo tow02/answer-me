@@ -42,11 +42,14 @@ export default class Timer extends React.Component {
       <div>
         <h1>{this.state.count} seconds remaining</h1>
         <div>
-          <RaisedButton label={'Start'} primary onClick={this.startTimer.bind(this)} />
+          <RaisedButton label={'Start'} 
+          primary onClick={this.startTimer.bind(this)} />
           &nbsp;
-          <RaisedButton label={'Pause'} primary onClick={this.pauseTimer.bind(this)} />
+          <RaisedButton label={'Pause'} 
+          primary onClick={this.pauseTimer.bind(this)} />
           &nbsp;
-          <RaisedButton label={'Reset'} primary onClick={this.resetTimer.bind(this)} />
+          <RaisedButton label={'Reset'} 
+          primary onClick={this.resetTimer.bind(this)} />
         </div>
       </div>
     )
