@@ -1,0 +1,93 @@
+{
+  "artists": [
+    {
+      "title": "The Unswept Floor",
+      "period": "Ancient Roman",
+      "medium": "",
+      "artist": "Heraklitos"
+    },
+    {
+      "title": "Creation and Fall of Adam and Eve",
+      "period": "Romanesque",
+      "medium": "",
+      "artist": "Wiligelmus"
+    },
+    {
+      "title": "Abbey Church of Saint-Denis",
+      "period": "Gothic",
+      "medium": "",
+      "artist": "Abbot Suger"
+    },{
+      "title": "Virgin and Child Enthroned",
+      "period": "Gothic",
+      "medium": "",
+      "artist": "Giotto di Bondone"
+    },{
+      "title": "Lamentation (Arena Chapel)",
+      "period": "Gothic",
+      "medium": "",
+      "artist": "Giotto di Bondone"
+    },
+    {
+      "title": "David",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Donatello"
+    },{
+      "title": "Dead Christ",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Andrea Mantegna"
+    },{
+      "title": "David",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Donatello"
+    },{
+      "title": "Holy Trinity, Expulsion of Adam and Eve from Eden",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Masaccio"
+    },{
+      "title": "Battle of the Ten Nudes",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Antonio Pollaiuolo"
+    },{
+      "title": "The Temptation of Saint Anthony",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Martin Schongauer"
+    },{
+      "title": "Annunciation",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Fra Angelico"
+    },{
+      "title": "Man in a Red Turban, Giovanni Arnolfini and His Bride",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Jan Van Eyck"
+    },{
+      "title": "Merode Altarpiece",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Robert Campin"
+    },{
+      "title": "Birth of Venus",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Botticelli"
+    },{
+      "title": "David",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Filippo Brunelleschi"
+    },{
+      "title": "Sacrifice of Isaac",
+      "period": "Early Renaissance",
+      "medium": "",
+      "artist": "Lorenzo Ghiberti"
+    }
+  ]
+}
